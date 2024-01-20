@@ -605,6 +605,10 @@ footer ul li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+    .header__container h1 {
+        font-size: 3rem;
+    }
+
     .container {
         width: var(--container-width-sm)
     }
