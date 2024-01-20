@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purposeful Lore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Black+Ops+One&family=Ephesis&family=Felipa&family=League+Script&family=Marvel&family=Montserrat:wght@100&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c783fb2b9a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet"href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">
+                <img src="./assets/logo.png">
+            </a>
+            <ul class="nav__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav__buttons">
+                <button class="nav__theme-btn"><i class="fa-solid fa-moon"></i></button>
+                <button class="nav__toggle-open"><i class="fa-solid fa-bars"></i></button>
+                <button class="nav__toggle-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header__container">
+            <h1>Purposeful Lore</h1>
+            <p>Age old, timeless, relevant wisdom.</p>
+            <div class="header__image">
+                <img src="./assets/header.jpeg">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container about__container">
+            <div class="about__frames">
+                <div class="about__frame">
+                    <img src="./assets/frame.2.jpeg" alt="About Frame One">
+                </div>
+                <div class="about__frame">
+                    <img src="./assets/frame.1.jpeg" alt="About Frame Two">
+                </div>
+            </div>
+            <div class="about__details">
+                <h2>About</h2>
+                <div class="about__cards">
+                    <article class="about__card">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <h4>Share your Knowledge</h4>
+                    </article>
+                    <article class="about__card">
+                        <i class="fa-solid fa-earth-africa"></i>
+                        <h4>Broaden your Horizons</h4>
+                    </article>
+                    <article class="about__card">
+                        <i class="fa-solid fa-users"></i>
+                        <h4>Create Lifelong Connections</h4>
+                    </article>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi natus perspiciatis qui quasi, provident quos dicta voluptate, dignissimos laborum aut. Itaque iusto aliquam voluptatibus reiciendis totam ex repellendus. Exercitationem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime reprehenderit dicta dolorem dolore natus! Rerum mollitia sequi quisquam blanditiis fuga sint quaerat exercitationem quam quibusdam vitae odit, aut deserunt.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="genres" id="genres">
+        <h2>Book Genres</h2>
+        <p>Books discussed this month.</p>
+        <ul class="genre__categories">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".philosophy">Philosophy</li>
+            <li data-filter=".physiology">Physiology</li>
+            <li data-filter=".autobiography">Autobiography</li>
+        </ul>
+        <div class="container genre__container">
+            <article class="genre mix philosophy" data-order="1">
+                <div class="genre__image">
+                    <img src="./assets/book2.jpeg">
+                </div>
+                <h3>Title</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque repudiandae obcaecati, doloribus sequi, deserunt accusamus vitae doloremque odit a sunt veniam, aliquid debitis. Asperiores, est veritatis libero iste facere voluptas!</p>
+            </article>
+            <article class="genre mix physiology" data-order="2">
+                <div class="genre__image">
+                    <img src="./assets/book1.jpeg">
+                </div>
+                <h3>Title</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque repudiandae obcaecati, doloribus sequi, deserunt accusamus vitae doloremque odit a sunt veniam, aliquid debitis. Asperiores, est veritatis libero iste facere voluptas!</p>
+            </article>
+            <article class="genre mix autobiography" data-order="3">
+                <div class="genre__image">
+                    <img src="./assets/book3.jpeg">
+                </div>
+                <h3>Title</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque repudiandae obcaecati, doloribus sequi, deserunt accusamus vitae doloremque odit a sunt veniam, aliquid debitis. Asperiores, est veritatis libero iste facere voluptas!</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container testimonials__container mySwiper">
+            <h2>Testimonials</h2>
+            <div class="swiper-wrapper">
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./assets/avatar1.jpg"/>
+                    </div>
+                    <div class="testimonial__info">
+                        <h5>Scarlett Johansson</h5>
+                        <small>Doctor</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident et explicabo alias labore, id assumenda suscipit pariatur ipsum recusandae, odio laborum natus debitis velit, vitae rem delectus in ullam cupiditate!</p>
+                    </div>
+                </article>
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./assets/avatar2.jpg"/>
+                    </div>
+                    <div class="testimonial__info">
+                        <h5>Florence Pugh</h5>
+                        <small>Writer</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident et explicabo alias labore, id assumenda suscipit pariatur ipsum recusandae, odio laborum natus debitis velit, vitae rem delectus in ullam cupiditate!</p>
+                    </div>
+                </article>
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./assets/avatar3.jpg"/>
+                    </div>
+                    <div class="testimonial__info">
+                        <h5>David Harbour</h5>
+                        <small>Philanthopist</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident et explicabo alias labore, id assumenda suscipit pariatur ipsum recusandae, odio laborum natus debitis velit, vitae rem delectus in ullam cupiditate!</p>
+                    </div>
+                </article>
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./assets/avatar4.jpg"/>
+                    </div>
+                    <div class="testimonial__info">
+                        <h5>Rachel Weisz</h5>
+                        <small>Engineer</small>
+                    </div>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident et explicabo alias labore, id assumenda suscipit pariatur ipsum recusandae, odio laborum natus debitis velit, vitae rem delectus in ullam cupiditate!</p>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="container contact__container">
+            <div class="contact__options">
+                <article class="contact__option">
+                    <div class="contact__option-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <h4>Email</h4>
+                    <a href="mailto:purposefullore@gmail.com">nourish@gmail.com</a>
+                </article>
+                <article class="contact__option">
+                    <div class="contact__option-icon"><i class="fa-solid fa-phone"></i></div>
+                    <h4>Mobile</h4>
+                    <h5>+61 477 114 441</h5>
+                </article>
+            </div>
+            <form action="https://formspree.io/f/xdoqojdw" method="POST" id="contact-form">
+                <input type="text" name="name" placeholder="Full Name" required />
+                <input type="text" name="email" placeholder="Email" required />
+                <textarea name="message" id='' rows="7" placeholder="Message" required></textarea>
+                <button type="submit" class='btn btn-primary' onClick="sendMail();">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#genres">Genres</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+            </div>
+            <div class="footer__2">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+    
+                
+            </div>
+            <div class="footer__3">
+                <h4>Contact Us</h4>
+                <p>+61 477 114 441</p>
+                <p>purposefullore@gmail.com</p>
+    
+                
+            </div>
+            <div class="footer__4">
+                <ul class="footer__socials">
+                    <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
