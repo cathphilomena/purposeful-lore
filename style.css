@@ -352,7 +352,7 @@ header {
 }
 
 .swiper-wrapper {
-    height: 25rem;
+    height: 30rem;
 }
 
 .testimonial__info {
@@ -610,7 +610,7 @@ footer ul li a:hover {
     }
 
     .header__image {
-        width: 70%;
+        width: 90%;
     }
 
     .about__cards {
