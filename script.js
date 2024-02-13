@@ -5,7 +5,7 @@ var mixer = mixitup(containerEl, {
     }
 })
 
-mixer.filter('.category-a');
+mixer.filter('*');
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
